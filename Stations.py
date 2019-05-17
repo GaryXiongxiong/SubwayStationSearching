@@ -1,4 +1,4 @@
-class Station(object):#定义站点类
+class Station(object):#定义站点类-存储站点
     __name = ""
     __line = []
     def __init__(self, name, *lines):#站点构造函数，参数为站点名称，站点所在线路
