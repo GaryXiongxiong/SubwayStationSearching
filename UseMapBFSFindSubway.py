@@ -1,3 +1,10 @@
+'''
+@Author: Yixiong J
+@Date: 2019-10-02 01:04:38
+@LastEditors: Yixiong J
+@LastEditTime: 2019-10-02 01:07:37
+@Description: Use BFS to caculate shortest path between two subway station
+'''
 #UseMapBFSFindSubway
 import os
 from Stations import *#导入编写的地铁站信息
@@ -31,5 +38,4 @@ path.reverse()
 for each in path:
     print(each+" ",end="")
 print("\n")
-os.system('pause')
 
